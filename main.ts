@@ -51,22 +51,22 @@ randint(0, 9999999999)
 ]
 bubbleSort()
 let mySprite2 = sprites.create(img`
-    ...................cc...
-    ...............cccc63c..
-    ..............c633336c..
-    ..........cc.c6cc33333c.
-    .........b55c6c55c33333c
-    .........ff5c6c5ff33333c
-    .........ff5c6c5ff6333cc
-    .........b553c355c6666cc
-    ..........b55355c333333c
-    .........cc55555bcc3333c
-    ........c5545554b55c33c.
-    ........b54b4444bb5cbb..
-    ........c455b4b5554c45b.
-    ........c555c4c555c4c5c.
-    ........c5555c5555c4c5c.
-    .........ccccccccc..ccc.
+    . . f f f . . . . . . . . f f f 
+    . f f c c . . . . . . f c b b c 
+    f f c c . . . . . . f c b b c . 
+    f c f c . . . . . . f b c c c . 
+    f f f c c . c c . f c b b c c . 
+    f f c 3 c c 3 c c f b c b b c . 
+    f f b 3 b c 3 b c f b c c b c . 
+    . c b b b b b b c b b c c c . . 
+    . c 1 b b b 1 b b c c c c . . . 
+    c b b b b b b b b b c c . . . . 
+    c b c b b b c b b b b f . . . . 
+    f b 1 f f f 1 b b b b f c . . . 
+    f b b b b b b b b b b f c c . . 
+    . f b b b b b b b b c f . . . . 
+    . . f b b b b b b c f . . . . . 
+    . . . f f f f f f f . . . . . . 
     `, SpriteKind.Player)
 low = 0
 target = game.askForNumber("What number?", 10)
